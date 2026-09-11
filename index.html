@@ -48,8 +48,9 @@
     </ul>
 
     <form id="mapa-form" action="https://formspree.io/f/xjyvonng" method="POST">
-      <input type="hidden" name="_subject" value="Novo download: Mapa Financeiro">
-      <input type="text" name="_gotcha" style="display:none">
+  <input type="hidden" name="_subject" value="Novo download: Mapa Financeiro">
+  <input type="hidden" name="_next" value="https://vivianefinanceiro.github.io/mapafinanceiro/obrigada-mapa.html">
+  <input type="text" name="_gotcha" style="display:none">
 
       <div>
         <label for="nome">Nome</label>
@@ -73,7 +74,7 @@
 
   <script>
     // Caminho da página de obrigado, com o endereço completo pra evitar qualquer ambiguidade.
-    const paginaObrigado = const paginaObrigado = "/obrigada-mapa.html";
+    const paginaObrigado = "https://vivianefinanceiro.github.io/mapafinanceiro/obrigada-mapa.html";
 
     const form = document.getElementById("mapa-form");
     const botao = document.getElementById("mapa-btn");
